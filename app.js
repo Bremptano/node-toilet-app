@@ -13,7 +13,3 @@ app.set('view engine', 'ejs');
 app.set('views', path.resolve(__dirname, 'views'));
 
 app.use(express.static('public'));
-
-app.get('/', function(req, res){
-  res.render('index');
-});
