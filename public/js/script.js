@@ -40,8 +40,7 @@ function onLocationFound(e) {
 }
 
 map.locate({
-  setView: 16,
-  watch: true
+  setView: 16
 });
 
 map.on('locationfound', onLocationFound);
