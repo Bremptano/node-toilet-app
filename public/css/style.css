@@ -11,14 +11,26 @@ header {
   background-color: #1E66FF;
   color: white;
   height: 50px;
+}
+
+.header-wrap {
+  margin: 0 auto;
+  width: 75%;
+  height: 50px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 75px;
 }
 
 #header-title {
-  text-align: center;
+  font-family: "Istok Web";
+  font-weight: bold;
+  height: auto;
+  height: 12px;
 }
 
 /* Map --------------------------------------------------------------------------------*/
