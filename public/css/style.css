@@ -50,7 +50,7 @@ header img {
   right: 15px;
   background-color: white;
   z-index: 999;
-  background-image: url("img/marker icons/Location-Icon-Blue.svg");
+  background-image: url("../img/marker icons/Location-Icon-Blue.svg");
   background-size: 50%;
   background-repeat: no-repeat;
   background-position: center;
