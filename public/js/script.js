@@ -30,6 +30,10 @@ var userIcon = L.icon({
 
 let userLocation;
 
+function findMe() {
+  map.setView([userLocation.lat, userLocation.lng], 16);
+}
+
 function onLocationFound(e) {
   L.marker(e.latlng, {
     icon: userIcon,

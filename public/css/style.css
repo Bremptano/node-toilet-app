@@ -42,6 +42,22 @@ header img {
   height: calc(100% - 50px);
 }
 
+.find-me {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 65px;
+  right: 15px;
+  background-color: white;
+  z-index: 999;
+  background-image: url("../img/marker icons/Location-Icon-Blue.svg");
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  box-shadow: 10px 10px 29px -5px rgba(0,0,0,0.28);
+}
+
 #info {
   display: flex;
   flex-direction: column;
